@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "blue-firefly-2b83",
+  "compatibility_date": "2024-11-01",
+  "upload_source_maps": true,
+  "main": "./server.ts",
+  "assets": {
+    "directory": "./build/client"
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TO_DO_LIST",
+      "id": "0f6540a6646e4ad8a7d9bf44a2e18905"
+    }
+  ]
+}
